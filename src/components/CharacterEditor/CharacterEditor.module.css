@@ -4,6 +4,15 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
+}
+
+.perspective {
+  position: fixed;
+  width: 100%;
+  top: 60%;
+  height: 40%;
+  background: hsl(195deg, 20%, 86%);
 }
 
 .header {
