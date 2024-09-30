@@ -8,6 +8,7 @@
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -24,7 +25,20 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  min-height: 500px;
+  /* 
+  Exercise 2:
+  Without a top AND bottom, you won't see the SVG.
+  This is because, although we have given a min-height, we still haven't defined a "height".
+  What exactly does it mean for a child to be 100% of "at least 500px"?
+  When we define top and bottom, the browser can calculate the height.
+  */
+  top: 15%;
+  bottom: 5%;
+  left: 60%;
 }
 
 .controlColumn {
+  max-width: 50%;
 }
